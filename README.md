@@ -57,7 +57,7 @@ You will be prompted to enter:
 
 ## Example
 
-Your playlist contains the track "Whatever It Takes" and you set it as the flag, all tracks **after it** will be moved to the beginning of the playlist.
+Your playlist contains the track "Whatever It Takes" and you set it as the flag, all tracks **after it** will be moved to the beginning of the playlist, taking into account the date of addition. New ones are higher, old ones are lower
 
 ---
 
