@@ -58,4 +58,4 @@ if __name__ == "__main__":
         for uri in reversed_uris:
             sp.playlist_add_items(playlist_id=playlistID, items=[uri], position=0)
 
-        print("All tracks moved successfully.")
+        print("All tracks moved successfully!")

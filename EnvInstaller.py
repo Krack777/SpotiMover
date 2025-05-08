@@ -1,4 +1,3 @@
-
 def add_to_env(key, value, env_path=".env"):
     line = f"{key}={value}\n"
     with open(env_path, "a") as file:
