@@ -1,0 +1,2 @@
+[🇬🇧English readme](https://github.com/Krack777/SpotiMover/blob/main/readme_en.md)
+[🇷🇺Russian readne](https://github.com/Krack777/SpotiMover/blob/main/readme_ru.md)
