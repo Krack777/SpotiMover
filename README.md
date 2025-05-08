@@ -6,15 +6,18 @@ SpotiMover is a simple Python script that lets you automatically move all tracks
 ## Installation
 
 1. Clone the repository:
+
     ```
     git clone https://github.com/your-username/SpotiMover.git
     cd SpotiMover
     ```
 2. Install dependencies:
+
     ```
     pip install -r requirements.txt
     ```
 3. Set up your environment:
+
     ```
     python EnvInstaller.py
     ```
@@ -28,6 +31,7 @@ You will be prompted to enter:
 ## Usage
 
 Once configured, run the main script:
+
     ```
     python SpotiMover.py
     ```
