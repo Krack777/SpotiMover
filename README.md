@@ -2,32 +2,22 @@
 
 SpotiMover is a simple Python script that lets you automatically move all tracks that come **after** a specific "flag track" to the **start** of a Spotify playlist. Useful for keeping your newest additions at the top.
 
----
-
-## Features
-
-- Authenticates with your Spotify account
-- Searches for a custom "flag track" in the playlist
-- Moves all tracks after the flag to the top (in reverse order)
-- Supports both public and private playlists
-
----
 
 ## Installation
 
 1. Clone the repository:
-
+    ```
     git clone https://github.com/your-username/SpotiMover.git
     cd SpotiMover
-
+    ```
 2. Install dependencies:
-
+    ```
     pip install -r requirements.txt
-
+    ```
 3. Set up your environment:
-
+    ```
     python EnvInstaller.py
-
+    ```
 You will be prompted to enter:
 
 - `Client ID` and `Client Secret` from your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
@@ -38,9 +28,10 @@ You will be prompted to enter:
 ## Usage
 
 Once configured, run the main script:
-
+    ```
     python SpotiMover.py
-
+    ```
+    
 Then paste the playlist URL (either `https://open.spotify.com/playlist/...` or `spotify:playlist:...`).
 
 The script will:
@@ -54,7 +45,7 @@ The script will:
 
 ## Important Notes
 
-- This script modifies your playlist. Use with caution.
+- This script modifies your playlist. Use with caution. Make a copy of playlist before running it
 - Only works with playlists you own.
 - The flag track is searched by partial name match (case-insensitive).
 
@@ -62,7 +53,7 @@ The script will:
 
 ## Example
 
-If your playlist contains the track "Whatever It Takes" and you set it as the flag, all tracks **after it** will be moved to the beginning of the playlist.
+Your playlist contains the track "Whatever It Takes" and you set it as the flag, all tracks **after it** will be moved to the beginning of the playlist.
 
 ---
 
@@ -75,8 +66,3 @@ If your playlist contains the track "Whatever It Takes" and you set it as the fl
     └── .env                  # Auto-generated
 
 ---
-
-## Author
-
-Created by [your name or handle]  
-Built using Spotipy
