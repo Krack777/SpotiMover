@@ -30,14 +30,15 @@ You will be prompted to enter:
 
 ## Usage
 
-Once configured, run the main script:
+1. run the main script:
+   
     ```
     python SpotiMover.py
     ```
     
-Then paste the playlist URL (either `https://open.spotify.com/playlist/...` or `spotify:playlist:...`).
+2. Then paste the playlist URL (either `https://open.spotify.com/playlist/...` or `spotify:playlist:...`).
 
-The script will:
+### The script will:
 
 1. Authenticate with Spotify
 2. Find the flag track
