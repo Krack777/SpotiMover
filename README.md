@@ -40,7 +40,7 @@ You will be prompted to enter:
 
 ### The script will:
 
-1. Authenticate with Spotify
+1. Authenticate with Spotify API
 2. Find the flag track
 3. Remove all tracks after it
 4. Add them back at the top of the playlist in reverse order
