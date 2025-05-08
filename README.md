@@ -31,7 +31,6 @@ You will be prompted to enter:
 ## Usage
 
 Once configured, run the main script:
-
     ```
     python SpotiMover.py
     ```
